@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Document</title>
+        <style>
+        .box{
+        	width:320px;
+        	height:320px;
+        	border:2px solid red;
+        	margin:30px auto;
+        	position:relative;
+        }
+        .box div{
+        	width:100px;
+        	height:100px;
+        	background-color:red;
+        	color:#fff;
+        	position: absolute;
+        	line-height: 100px;
+        	text-align:center;
+        }
+        .box1{left:10px; top:10px;}
+        .box2{left:10px; bottom:10px;}
+        .box4{right:10px; top:10px;}
+        .box5{right:10px; bottom:10px;}
+        .box .box3{
+        	background-color:blue;
+        	left:50%; top:50%;
+        	margin-left: -50px;
+        	margin-top: -50px;
+        }
+
+        </style>
+    </head>
+    <body>
+    <div class="box">
+    	<div class="box1">文字</div>
+    	<div class="box2">文字</div>
+    	<div class="box3">文字</div>
+    	<div class="box4">文字</div>
+    	<div class="box5">文字</div>
+    </div>
+    </body>
+</html>
